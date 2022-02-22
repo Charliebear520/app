@@ -6,7 +6,7 @@ export default function App() {
     <View style={styles.container}>
       <Image style={styles.Image} source={require("./assets/桌布.jpg")}></Image>
       <Text style={styles.Text1}>110919009</Text>
-      <Text style={styles.Text2}>黃塏峻</Text>
+      <Text style={styles.Text2}>黃 塏 峻</Text>
       <StatusBar style="auto" />
     </View>
   );
