@@ -17,7 +17,7 @@ import AlbumScreen from '../screens/AlbumScreen';
 import DetailScreen from '../screens/DetailScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import DisplaySettingScreen from '../screens/DisplaySettingScreen';
-import MyTheme from '../Theme';
+import { lightTheme, darkTheme } from '../Theme';
 
 import albumData from "../json/albums.json";
 
@@ -36,6 +36,8 @@ const Drawer = createDrawerNavigator();
 
 const Navigation = () => {
   const { colorMode } = useColorMode();
+  const MyTheme = colorMode == 'light' ? lightTheme : darkTheme;
+
   return (
     <NavigationContainer theme={MyTheme} >
       <StatusBar
@@ -54,9 +56,11 @@ const CustomDrawerContent = (props) => {
   const { colors } = useTheme();
   const { colorMode } = useColorMode();
   return (
-    <DrawerContentScrollView {...props} >
+    <DrawerContentScrollView {...props}
+      contentContainerStyle={{ paddingTop: 0 }}
+    >
       <Image
-        h={150}
+        h={250}
         source={require("../images/drawerTile.jpg")}
         alt='albumImage'
       />
