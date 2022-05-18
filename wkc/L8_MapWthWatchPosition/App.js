@@ -1,23 +1,28 @@
-import React, { useState, useEffect } from "react";
-import { Platform, View } from "react-native";
-import MapView from "react-native-maps";
-import Constants from "expo-constants";
-import * as Location from "expo-location";
+import { useState, useEffect } from 'react';
+import MapView, { Marker } from 'react-native-maps';
+import { Platform } from "react-native";
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { NativeBaseProvider, Box } from 'native-base';
+import * as Location from 'expo-location';
+import * as Device from "expo-device";
+import Icon from 'react-native-vector-icons/FontAwesome';
+import mapStyle from "./styles/mapStyle.json"
 
-const App = () => {
+export default function App() {
+  const [msg, setMsg] = useState("Waiting...");
   const [region, setRegion] = useState({
     longitude: 121.544637,
     latitude: 25.024624,
     longitudeDelta: 0.01,
     latitudeDelta: 0.02,
-  });
+  })
   const [marker, setMarker] = useState({
     coord: {
       longitude: 121.544637,
       latitude: 25.024624,
     },
-    name: "國立臺北教育大學",
-    address: "台北市和平東路二段134號",
+    // name: "國立臺北教育大學",
+    // address: "台北市和平東路二段134號",
   });
 
   const onRegionChangeComplete = (rgn) => {
@@ -52,51 +57,51 @@ const App = () => {
   };
 
   const getLocation = async () => {
-    let { status } = await Location.requestPermissionsAsync();
-    if (status !== "granted") {
-      setMsg("Permission to access location was denied");
+    let { status } = await Location.requestForegroundPermissionsAsync();
+    if (status !== 'granted') {
+      setMsg('Permission to access location was denied');
       return;
     }
-    setInterval(
-      () =>
-        Location.watchPositionAsync(
-          {
-            distanceInterval: 1000,
-            enableHighAccuracy: true,
-          },
-          (location) => setRegionAndMarker(location)
-        ),
-      1000
-    );
-  };
+
+    Location.watchPositionAsync({
+      accuracy: Location.Accuracy.High,
+      distanceInterval: 2000,
+      timeInterval: 1000
+    }, (loc) => setRegionAndMarker(loc));
+  }
 
   useEffect(() => {
-    if (Platform.OS === "android" && !Constants.isDevice) {
-      setErrorMsg(
+    if (Platform.OS === "android" && !Device.isDevice) {
+      setMsg(
         "Oops, this will not work on Sketch in an Android emulator. Try it on your device!"
       );
-    } else {
-      getLocation();
+      return
     }
+    getLocation();
   }, []);
 
   return (
-    <View style={{ flex: 1 }}>
-      <MapView
-        region={region}
-        style={{ flex: 1 }}
-        showsTraffic
-        provider="google"
-        onRegionChangeComplete={onRegionChangeComplete}
-      >
-        <MapView.Marker
-          coordinate={marker.coord}
-          title={marker.name}
-          description={marker.address}
-        />
-      </MapView>
-    </View>
+    <SafeAreaProvider>
+      <NativeBaseProvider>
+        <Box flex={1}>
+          <MapView
+            region={region}
+            style={{ flex: 1 }}
+            showsTraffic
+            onRegionChangeComplete={onRegionChangeComplete}
+            provider="google"
+            customMapStyle={mapStyle}
+          >
+            <Marker
+              coordinate={marker.coord}
+              title={marker.name}
+              description={marker.address}
+            >
+              <Icon name={"map-marker"} size={60} color="#B12A5B" />
+            </Marker>
+          </MapView>
+        </Box>
+      </NativeBaseProvider>
+    </SafeAreaProvider>
   );
-};
-
-export default App;
+}
