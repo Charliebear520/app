@@ -1,0 +1,354 @@
+[
+   {
+     "StationUID": "TRTC-BL14",
+     "StationID": "BL14",
+     "StationName": {
+       "Zh_tw": "忠孝新生",
+       "En": "Zhongxiao Xinsheng"
+     },
+     "StationAddress": "106083臺北市大安區新生南路1段67號",
+     "BikeAllowOnHoliday": true,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.53321,
+       "PositionLat": 25.042498,
+       "GeoHash": "wsqqmwcg1"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-BL15",
+     "StationID": "BL15",
+     "StationName": {
+       "Zh_tw": "忠孝復興",
+       "En": "Zhongxiao Fuxing"
+     },
+     "StationAddress": "106071臺北市大安區忠孝東路4段47號",
+     "BikeAllowOnHoliday": false,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.545026,
+       "PositionLat": 25.041749,
+       "GeoHash": "wsqqmydqu"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-BL16",
+     "StationID": "BL16",
+     "StationName": {
+       "Zh_tw": "忠孝敦化",
+       "En": "Zhongxiao Dunhua"
+     },
+     "StationAddress": "106057臺北市大安區忠孝東路4段182號",
+     "BikeAllowOnHoliday": true,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.55045,
+       "PositionLat": 25.041505,
+       "GeoHash": "wsqqmywm6"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-BR06",
+     "StationID": "BR06",
+     "StationName": {
+       "Zh_tw": "麟光",
+       "En": "Linguang"
+     },
+     "StationAddress": "106043臺北市大安區和平東路3段410號",
+     "BikeAllowOnHoliday": false,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.558834,
+       "PositionLat": 25.018495,
+       "GeoHash": "wsqqq4krq"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-BR07",
+     "StationID": "BR07",
+     "StationName": {
+       "Zh_tw": "六張犁",
+       "En": "Liuzhangli"
+     },
+     "StationAddress": "106039臺北市大安區和平東路3段168號",
+     "BikeAllowOnHoliday": false,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.55302,
+       "PositionLat": 25.02381,
+       "GeoHash": "wsqqq52nq"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-BR08",
+     "StationID": "BR08",
+     "StationName": {
+       "Zh_tw": "科技大樓",
+       "En": "Technology Building"
+     },
+     "StationAddress": "106101臺北市大安區復興南路2段235號",
+     "BikeAllowOnHoliday": false,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.543462,
+       "PositionLat": 25.02612,
+       "GeoHash": "wsqqmgc5x"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-BR09",
+     "StationID": "BR09",
+     "StationName": {
+       "Zh_tw": "大安",
+       "En": "Daan"
+     },
+     "StationAddress": "106097臺北市大安區信義路4段2號",
+     "BikeAllowOnHoliday": false,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.54237,
+       "PositionLat": 25.033311,
+       "GeoHash": "wsqqmv0mw"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-BR10",
+     "StationID": "BR10",
+     "StationName": {
+       "Zh_tw": "忠孝復興",
+       "En": "Zhongxiao Fuxing"
+     },
+     "StationAddress": "106084臺北市大安區忠孝東路3段302號",
+     "BikeAllowOnHoliday": false,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.545026,
+       "PositionLat": 25.041749,
+       "GeoHash": "wsqqmydqu"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-G07",
+     "StationID": "G07",
+     "StationName": {
+       "Zh_tw": "公館",
+       "En": "Gongguan"
+     },
+     "StationAddress": "100046臺北市中正區羅斯福路4段64之1號B1",
+     "BikeAllowOnHoliday": true,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.534358,
+       "PositionLat": 25.014781,
+       "GeoHash": "wsqqm9f9e"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-G08",
+     "StationID": "G08",
+     "StationName": {
+       "Zh_tw": "台電大樓",
+       "En": "Taipower Building"
+     },
+     "StationAddress": "100043臺北市中正區羅斯福路3段126之5號B1",
+     "BikeAllowOnHoliday": true,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.528143,
+       "PositionLat": 25.020733,
+       "GeoHash": "wsqqm6yh6"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-O06",
+     "StationID": "O06",
+     "StationName": {
+       "Zh_tw": "東門",
+       "En": "Dongmen"
+     },
+     "StationAddress": "10650臺北市大安區信義路2段166號B1",
+     "BikeAllowOnHoliday": true,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.528766,
+       "PositionLat": 25.033894,
+       "GeoHash": "wsqqmmq91"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-O07",
+     "StationID": "O07",
+     "StationName": {
+       "Zh_tw": "忠孝新生",
+       "En": "Zhongxiao Xinsheng"
+     },
+     "StationAddress": "106083臺北市大安區新生南路1段67號",
+     "BikeAllowOnHoliday": true,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.53321,
+       "PositionLat": 25.042498,
+       "GeoHash": "wsqqmwcg1"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-R04",
+     "StationID": "R04",
+     "StationName": {
+       "Zh_tw": "信義安和",
+       "En": "Xinyi Anhe"
+     },
+     "StationAddress": "106049臺北市大安區信義路4段212之1號B1",
+     "BikeAllowOnHoliday": true,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.552326,
+       "PositionLat": 25.033015,
+       "GeoHash": "wsqqmvpey"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-R05",
+     "StationID": "R05",
+     "StationName": {
+       "Zh_tw": "大安",
+       "En": "Daan"
+     },
+     "StationAddress": "106028臺北市大安區信義路3段180號B1",
+     "BikeAllowOnHoliday": false,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.54237,
+       "PositionLat": 25.033311,
+       "GeoHash": "wsqqmv0mw"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-R06",
+     "StationID": "R06",
+     "StationName": {
+       "Zh_tw": "大安森林公園",
+       "En": "Daan Park"
+     },
+     "StationAddress": "106008臺北市大安區信義路3段100號B1",
+     "BikeAllowOnHoliday": true,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.536151,
+       "PositionLat": 25.033225,
+       "GeoHash": "wsqqmt5vj"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   },
+   {
+     "StationUID": "TRTC-R07",
+     "StationID": "R07",
+     "StationName": {
+       "Zh_tw": "東門",
+       "En": "Dongmen"
+     },
+     "StationAddress": "106007臺北市大安區信義路2段166號B1",
+     "BikeAllowOnHoliday": true,
+     "SrcUpdateTime": "2020-11-01T00:00:00+08:00",
+     "UpdateTime": "2020-11-05T00:00:00+08:00",
+     "VersionID": 4,
+     "StationPosition": {
+       "PositionLon": 121.528766,
+       "PositionLat": 25.033894,
+       "GeoHash": "wsqqmmq91"
+     },
+     "LocationCity": "臺北市",
+     "LocationCityCode": "TPE",
+     "LocationTown": "大安區",
+     "LocationTownCode": "63000030"
+   }
+ ]
